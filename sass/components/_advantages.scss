@@ -1,0 +1,49 @@
+.advantages {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.advantages__field {
+    /* width: 270; */
+    height: 120px;
+    background-color: var(--color-background-light);
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25 100;
+}
+
+.advantages__title {
+    width: 270px;
+    /* flex-basis: calc((100% - 90px) / 4); */
+    color: var(--color-secondary);
+    font-family: 'Roboto', inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.advantages__text {
+    width: 270px;
+    /* flex-basis: calc((100% - 90px) / 4); */
+    color: var(--color-primary);
+    font-family: 'Roboto', inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}

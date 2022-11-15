@@ -1,0 +1,19 @@
+.current-link {
+    color: var(--color-brand);
+
+
+&::after {
+    display: block;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    color: var(--color-brand);
+    background-color: var(--color-brand);
+    border-radius: 2px;
+    transition: opacity 250ms;
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+}
