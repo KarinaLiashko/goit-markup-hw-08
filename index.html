@@ -25,6 +25,12 @@
                 <a href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span
                         class="logo">Studio</span>
                 </a>
+                <button class="header__burger-menu">
+                    <svg class="header__icon" width="24" height="16">
+                        <use href="./images/icons.svg#icon-menu_24px">
+                        </use>
+                    </svg>
+                </button>
                 <ul class="header__menu">
                     <li class="header__list">
                         <a href="./index.html" class="header__link current-link">Студія</a>
@@ -70,7 +76,7 @@
             <div class="container">
                 <h2 class="visually-hidden">Наші переваги</h2>
                 <ul class="advantages">
-                    <li>
+                    <li class="advantages__item">
                         <div class="advantages__field">
                             <svg class="advantages__icon" width="70" height="70">
                                 <use href="./images/icons.svg#icon-antenna-1">
@@ -82,7 +88,7 @@
                             позиції.
                         </p>
                     </li>
-                    <li>
+                    <li class="advantages__item">
                         <div class="advantages__field">
                             <svg class="advantages__icon" width="70" height="70">
                                 <use href="./images/icons.svg#icon-clock-1"></use>
@@ -94,7 +100,7 @@
                             себе
                         </p>
                     </li>
-                    <li>
+                    <li class="advantages__item">
                         <div class="advantages__field"> <svg class="advantages__icon" width="70" height="70">
                                 <use href="./images/icons.svg#icon-diagram-1"></use>
                         </div>
@@ -102,7 +108,7 @@
                         <p class="advantages__text">Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
-                    <li>
+                    <li class="advantages__item">
                         <div class="advantages__field"> <svg class="advantages__icon" width="70" height="70">
                                 <use href="./images/icons.svg#icon-astronaut-1"></use>
                         </div>
@@ -138,7 +144,7 @@
             <div class="container">
                 <h2 class="title">Наша команда</h2>
                 <ul class="team">
-                    <li>
+                    <li class="team__item">
                         <img src="./images/teamcard1.jpg" alt="Усміхнений хлопець в окулярах" width="270" />
                         <div class="team__text-container">
                             <h3 class="team__title">Ігор Дем'яненко</h3>
@@ -168,7 +174,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="team__item">
                         <img src="./images/teamcard2.jpg" alt="Усміхнена дівчина в окулярах" width="270" />
                         <div class="team__text-container">
                             <h3 class="team__title">Ольга Рєпіна</h3>
@@ -198,7 +204,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="team__item">
                         <img src="./images/teamcard3.jpg" alt="Усміхнений хлопець" width="270" />
                         <div class="team__text-container">
                             <h3 class="team__title">Микола Тарасов</h3>
@@ -228,7 +234,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="team__item">
                         <img src="./images/teamcard4.jpg" alt="Усміхнений хлопець в окулярах" width="270" />
                         <div class="team__text-container">
                             <h3 class="team__title">Михайло Єрмаков</h3>
@@ -422,6 +428,32 @@
         </div>
     </div>
 
+    <div class="mobile-menu">
+        <button class="mobile-menu__close-button">
+            <svg class="mobile-menu__close-button-icon" width="19" height="19">
+                <use href="./images/icons.svg#icon-close_24px"></use>
+            </svg>
+        </button>
+        <nav class="mobile-menu__nav">
+            <ul>
+                <li><a href="#">Студія</a></li>
+                <li><a href="#">Портфоліо</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+            <ul>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
